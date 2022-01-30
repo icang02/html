@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Form</title>
+</head>
+
+<body>
+    <a href="table.html">Buat Form HTML</a>
+
+    <hr>
+
+    <h2><em>Heading dua italic</em></h2>
+    <p>Isi <strong>data</strong> dibawah ini.</p>
+
+    <hr>
+
+    <table cellspacing="0" cellpadding="5">
+        <form action="">
+            <tr>
+                <td><label for="username">Username</label></td>
+                <td><input type="text" id="username" placeholder="Input username"></td>
+            </tr>
+
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" id="password" placeholder="Input password"></td>
+            </tr>
+
+            <tr>
+                <td>Jenis kelamin</td>
+                <td>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">male</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">female</label> <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Hobi</td>
+                <td>
+                    <input type="checkbox" id="design">
+                    <label for="design">design</label>
+                    <br>
+                    <input type="checkbox" id="menari">
+                    <label for="menari">menari</label>
+                    <br>
+                    <input type="checkbox" id="membaca">
+                    <label for="membaca">membaca</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Asal kota</td>
+                <td>
+                    <select id="asal-kota">
+                        <option value="">pilih</option>
+                        <option value="kendari">kendari</option>
+                        <option value="kolaka">kolaka</option>
+                        <option value="konawe">konawe</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Pas foto</td>
+                <td><input type="file"></td>
+            </tr>
+
+            <tr>
+                <td>Alamat lengkap</td>
+                <td>
+                    <textarea id="alamat" cols="30" rows="5" placeholder="Input alamat"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+
+    <hr>
+    <br><br>
+
+    <em>Catatan :</em>
+    <ul>
+        <li>supaya rapi, bungkus form nya dalam table.</li>
+        <li>tambahkan attribut <strong>cellspacing="0"</strong> dan <strong>cellpadding="5"</strong> pada tag table.
+        </li>
+    </ul>
+</body>
+
+</html>
